@@ -1,0 +1,238 @@
+body
+{
+    margin: 0;
+    background-color: #F2F3F4;
+}
+
+.head-nav
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    height: 80px;
+    padding: 7px;
+    background-color: #281b5E;
+    border-width: 2px;
+    position: fixed;
+    top: 0;
+}
+
+.title
+{
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    margin-left: 10px;
+    color: white;
+}
+
+.search-box
+{
+    margin-right: 20px;
+
+}
+
+.search-box input
+{
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-color: #0d1327;
+    width: 260px;
+    height: 24px;
+    background-color: white;
+}
+
+.search-box button
+{
+    height: 30px;
+    background-color: white;
+    border: none;
+    color: #281b5E;
+}
+
+.side-nav
+{
+    height: 100%;
+    width: 170px;
+    background-color: #151E3D;
+    border-width: 2px;
+    top: 0;
+    position: fixed;
+    margin-top: 94px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    
+}
+
+.side-nav a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding-top: 30px;
+    display: block;
+    margin-left: 20px;
+}
+
+.side-nav a:hover
+{
+    font-size: 30px;
+    transition: 0.2s;
+}
+
+.about
+{
+    border-radius: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-width: 2px;
+    margin-top: 20px;
+    border-color: white;
+    text-align: center;
+    color: white;
+    background-color: #0d1327;
+}
+
+.img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.ig
+{
+    width: 20px;
+    height: 20px;
+}
+
+
+.coffe-menu
+{
+    margin-left: 190px;
+    margin-top: 94px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 15px;
+}
+
+.header
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.coffe-list
+{
+    margin-left: 50px;
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.image
+{
+    margin-left: 20px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.coffe-list p
+{
+    text-align: center;
+    font-size: 20px;
+}
+
+.coffe-list a
+{
+    text-decoration: none;
+    color: #281b5E;
+}
+
+.logo
+{
+    color: #3D251B;
+}
+
+.input-box
+{
+    margin-left: 600px;
+    background-color: white;
+    width: 400px;
+    margin-top: 200px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.input input
+{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-bottom-style: solid;
+    border-width: 1px;
+    background-color: rgb(221, 221, 221);
+}
+
+.btn
+{
+    width: 310px;
+    height: 25px;
+    background-color: #281b5E;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.list
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.content
+{
+    margin-left: 190px;
+    margin-top: 94px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 15px;
+    padding: 20px;
+}
+
+.content h3
+{
+    font-size: 40px;
+}
+
+.quote
+{
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.quote img
+{
+    width: 100%;
+}
+
+.coffe-list:hover
+{
+    background-color: rgb(223, 223, 223);
+    transition: 0.2s;
+}
